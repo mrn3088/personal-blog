@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { FaLinkedinIn, FaTwitter, FaGithub, FaEnvelope } from "react-icons/fa";
-import { AiFillWechat } from "react-icons/ai";
 import { RiBilibiliFill } from "react-icons/ri";
 import DarkModeButton from "./DarkModeButton";
+import QRCodeButton from "./QRCodeButton";
 export default function Navbar() {
   return (
     <nav className="bg-slate-600 p-4 sticky top-0 drop-shadow-xl z-10">
@@ -34,12 +34,6 @@ export default function Navbar() {
           </Link>
           <Link
             className="text-white/90 hover:text-white"
-            href="https://courses.davegray.codes/"
-          >
-            <AiFillWechat />
-          </Link>
-          <Link
-            className="text-white/90 hover:text-white"
             href="mailto:r7ma3088@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -54,6 +48,7 @@ export default function Navbar() {
           >
             <FaTwitter />
           </Link>
+          <QRCodeButton/>
           <Link
             className="text-white/90 hover:text-white"
             href="https://space.bilibili.com/63498271"
@@ -65,6 +60,7 @@ export default function Navbar() {
         </div>
         <DarkModeButton />
       </div>
+      
     </nav>
   );
 }
