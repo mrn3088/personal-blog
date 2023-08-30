@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const WechatDropdown = () => {
   return (
-    <div className="fixed top-10 left-1/2 w-60 h-60 transform -translate-x-1/2 bg-white border rounded-lg shadow-lg">
+    <div className="wechat-dropdown fixed top-10 left-1/2 w-60 h-60 transform -translate-x-1/2 bg-white border rounded-lg shadow-lg">
       <div className="flex justify-center items-center h-full relative">
         <Image
           src="/images/qr-code.png"
