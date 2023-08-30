@@ -10,7 +10,7 @@ export default function Home() {
       <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
         Hello and Welcome 👋&nbsp;
         <span className="whitespace-nowrap">
-          I'm <span className="font-bold">Michael</span>.
+          I'm <span className="font-bold">Michael (Ruinan)</span>.
         </span>
       </p>
       {/* @ts-expect-error Server Component */}
